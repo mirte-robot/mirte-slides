@@ -1,0 +1,84 @@
+name: Build pptx
+
+on: [push, pull_request]
+
+jobs:
+  build_pptx:
+
+    runs-on: ubuntu-22.04
+    # container:
+    #   image: althack/ros2:rolling-dev
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: |
+          sudo apt update
+          wget https://github.com/RedHatOfficial/Overpass/releases/download/v3.0.5/overpass-3.0.5.zip
+          unzip overpass-3.0.5.zip
+          sudo cp Overpass-3.0.5/desktop-fonts/* /usr/local/share/fonts -r
+          fc-cache -f -v
+          sudo apt install python3-venv zip libreoffice npm -y
+          python3 -m venv sphinx-env
+          . sphinx-env/bin/activate
+          pip install -r requirements.txt
+          sudo npm cache clean -f
+          sudo npm install -g n
+          sudo n stable
+          npm install -g decktape
+          playwright install-deps
+          playwright install
+      - name: change font
+        run: |
+          sed -i '/fonts.googleapis/d' _sass/custom.scss
+          sed -i 's/Overpass/Liberation Sans/g' _sass/custom.scss
+          sed -i 's/Livvic/Liberation Sans/g' _sass/custom.scss
+          cat _sass/custom.scss
+      - name: Build the presentation
+        run: |
+          . sphinx-env/bin/activate
+          make revealjs
+          cd _build/revealjs
+          zip -r ../../revealjs.zip .
+          decktape --chrome-arg=--no-sandbox ./index.html ../../slides.pdf
+          cd ../../
+          soffice --infilter="impress_pdf_import" --convert-to pptx slides.pdf
+      # - name: Archive production artifacts
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: dist
+      #     path: |
+      #       _build/revealjs
+      - name: Archive production artifacts for act
+        uses: actions/upload-artifact@v4
+        with:
+          name: act_dist
+          path: |
+            # revealjs.zip
+            slides.pdf
+            slides.pptx
+      # - name: Upload as a github-pages artifact
+      #   uses: actions/upload-pages-artifact@v3
+      #   with: 
+      #     path: _build/revealjs
+
+  # deploy:
+  #   # Add a dependency to the build job
+  #   needs: build_pptx
+  #   if: github.ref == 'refs/heads/main'
+  #   permissions:
+  #     pages: write      # to deploy to Pages
+  #     id-token: write   # to verify the deployment originates from an appropriate source
+
+  #   # Deploy to the github-pages environment
+  #   environment:
+  #     name: github-pages
+  #     url: ${{ steps.deployment.outputs.page_url }}
+
+  #   # Specify runner + deployment step
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Deploy to GitHub Pages
+  #       id: deployment
+  #       uses: actions/deploy-pages@v4
+  #       # with:
+  #       #   artifact_name: dist

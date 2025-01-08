@@ -1,64 +1,45 @@
 name: Build site
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   build:
-
-    runs-on: ubuntu-latest
-    container:
-      image: althack/ros2:rolling-dev
+    runs-on: ubuntu-22.04
+    # container:
+    #   image: althack/ros:noetic-dev
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Install dependencies
         run: |
-          git config --global --add safe.directory /__w/mirte-documentation/mirte-documentation
           sudo apt update
+          sudo apt install libenchant-2-dev -y python3-empy zip
           python3 -m pip install --upgrade pip
-          apt install python3-venv zip libreoffice npm -y
-          python3 -m venv sphinx-env
-          . sphinx-env/bin/activate
+          python3 --version
+          sudo apt install python3-venv -y
+          python3 -m venv docs-env
+          . docs-env/bin/activate
           pip install -r requirements.txt
-          sudo npm cache clean -f
-          sudo npm install -g n
-          sudo n stable
-          echo '------------------'
-          npm install -g decktape
-          echo '------------------'
-          playwright install-deps
-          playwright install
+          playwright install --with-deps
           make revealjs
           cd _build/revealjs
-          ls -lah
-          zip -r ../../revealjs.zip .
-          echo '------------------'
-          #npm list puppeteer
-          echo '------------------'
-          decktape --chrome-arg=--no-sandbox ./index.html ../../slides.pdf
-          echo '------------------'
+          zip -r ../../site.zip .
           cd ../../
-          ls -lah
-          soffice --infilter="impress_pdf_import" --convert-to pptx:"Impress MS PowerPoint 2007 XML" slides.pdf
-          ls -lah
-          echo '------------------'
-      - name: install nodejs for archive script
-        run: |
-          curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
-          #sudo apt-get install -y nodejs        
+      # - name: install nodejs for archive script
+      #   run: |
+      #     curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+      #     sudo apt-get install -y nodejs        
       - name: Archive production artifacts
         uses: actions/upload-artifact@v4
         with:
           name: dist
           path: |
             _build/revealjs
-      - name: Archive production artifacts for act
-        uses: actions/upload-artifact@v4
-        with:
-          name: act_dist
-          path: |
-            revealjs.zip
-            slides.pdf
-            slides.pptx
+      # - name: Archive production artifacts for act
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: act_dist
+      #     path: |
+      #       site.zip
       - name: Upload as a github-pages artifact
         uses: actions/upload-pages-artifact@v3
         with: 
@@ -67,7 +48,8 @@ jobs:
   deploy:
     # Add a dependency to the build job
     needs: build
-    if: github.ref == 'refs/heads/main'
+    # only build if on arendjan/... and mirte-master or on any other user and main
+    if: github.ref == 'refs/heads/main' || true
     permissions:
       pages: write      # to deploy to Pages
       id-token: write   # to verify the deployment originates from an appropriate source
@@ -78,7 +60,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     # Specify runner + deployment step
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
