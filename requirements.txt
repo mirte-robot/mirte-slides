@@ -7,3 +7,5 @@ sphinxcontrib-budoux==0.1.6
 sphinxcontrib-gtagjs==0.2.1
 sphinxcontrib-sass==0.3.4
 sphinxext-opengraph==0.9.1
+sphinxcontrib-youtube
+sphinxcontrib-video

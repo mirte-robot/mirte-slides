@@ -35,7 +35,7 @@ Robotics Engineering
 **MIRTE** family
 ==========================
 
-Visit the `website <http://mirte.org/>`_
+Scroll down! 
 
 
 **MIRTE** light
