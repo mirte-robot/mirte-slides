@@ -153,7 +153,7 @@ Les 2: Ontwerpen en bouwen
 
 .. container:: smaller70
 
-   Voor de volgende opdracht heb je een werkblad nodig. Deze kun je `hier <_static/media/mirte-lite/mirte-lite-les2/Robot-ontwerp.pdf>`_ downloaden. 
+   Voor de volgende opdracht heb je een werkblad nodig. Deze kun je `hier <_static/media/mirte-lite/mirte-lite-les2/robot-ontwerp.pdf>`_ downloaden. 
 
 
 **Ontwerpcriteria**
@@ -222,6 +222,10 @@ Les 2: Ontwerpen en bouwen
 .. container:: smaller70
 
    Nu mag je jouw ontwerp voor jouw robot ook echt gaan maken. Controleer of de lijm van het kapje goed opgedroogd is. Zorg ervoor dat jouw robot eruit komt te zien als het ontwerp dat je net hebt getekend.
+
+
+.. image:: _static/media/mirte-lite/mirte-lite-les2/vuurvlieg-kap.png
+   :width: 400px
 
 
 **Robot bouwen**
@@ -759,7 +763,10 @@ Les 2: Ontwerpen en bouwen
 
 .. container:: smaller70
 
-   Bevestig het kapje op deze manier op de robot:
+   Bevestig het kapje met een splitpen vast aan de robot. Er is plek voor twee splitpennen, maar één moet genoeg zijn. Klap vervolgens de kap over de robot heen, zodat alle onderdelen bedekt worden door de kap. 
+
+.. image:: _static/media/mirte-lite/mirte-lite-les2/splitpen_bevestigen.png
+   :width: 400px
 
 
 **Volgende stap**

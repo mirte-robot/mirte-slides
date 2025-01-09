@@ -160,7 +160,7 @@ Les 1: Kennismaken met robots
 
    <div class="popup">
    <img src="_static/media/mirte-lite/mirte-lite-les1/informatie-vraagteken.png" style="width:auto; height:40px;">
-   <span class="popuptext smaller40">Vraag je af: 1. Is het programmeerbaar, waardoor het zelfstandig taken uit kan voeren? 2. Kan het reageren op zijn omgeving? Als je deze twee vragen kunt beantwoorden met 'ja', dan is het een robot!</span>
+   <span class="popuptext smaller40">Vraag je af: 1. Is het programmeerbaar, waardoor het zelfstandig taken uit kan voeren? 2. Kan het reageren op zijn omgeving en verandering aanbrengen aan de omgeving? Als je deze twee vragen kunt beantwoorden met 'ja', dan is het een robot!</span>
    </div>
 
     
@@ -295,7 +295,7 @@ Les 1: Kennismaken met robots
         #. Het getal wat je gooit hoort bij een specifiek onderdeel van de robot - Gooi je 6? Dan mag je het onderdeel zelf ontwerpen
         #. Teken dit onderdeel op het tekenvel
         #. Herhaal dit voor elke categorie van de robot
-        #. Vergeet de robot niet in te kleuren!
+        #. Bedenk een activiteit waar jouw robot goed in zal zijn
 
    .. container:: half smaller50
 

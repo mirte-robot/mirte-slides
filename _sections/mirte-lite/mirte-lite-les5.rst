@@ -15,6 +15,16 @@ Les 5: Offline programmeren
    In deze les maak je kennis met programmeren en ga je jouw robot testen tijdens een spel. 
 
 
+**Oeps**
+--------------------
+
+.. container:: smaller70
+
+   Het lijkt erop dat deze les nog niet af is. Nog even geduld voordat je verder kunt met de laatste les van MIRTE lite. 
+
+.. revealjs-section::
+   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/MIRTE-ingekleurd-op-lijn.png
+
 **Einde lespakket MIRTE lite**
 --------------------
 

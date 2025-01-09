@@ -361,7 +361,7 @@ Les 4: Elektronica aansluiten
 
 .. container:: smaller70
 
-   Om het stroomschema compleet te maken, moet alleen de krachtbron nog aangesloten worden. Let op! Zorg dat deze uitgeschakeld is (OFF) wanneer je hem inplugd. 
+   Om het stroomschema compleet te maken, moet alleen de krachtbron nog aangesloten worden. Let op! Zorg ervoor dat de rode kabel op de plus kant van het breadboard wordt aangesloten en de zwarte kabel op de min kant. Zorg er ook voor dat de batterijhouder uitgeschakeld (OFF) is.
 
 .. image:: _static/media/mirte-lite/mirte-lite-les4/elektronica_schema_compleet.png
    :width: 500px
