@@ -5,7 +5,7 @@ Les 1: Kennismaken met robots
 
 
 .. revealjs-section::
-   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/MIRTE-ingekleurd-op-lijn.png
+   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/mirte-ingekleurd-op-lijn.png
 
 
 **Doel & Uitleg**
@@ -58,7 +58,7 @@ Les 1: Kennismaken met robots
 
     <div class="column">
     <div class="popup">
-       <img src="_static/media/mirte-lite/mirte-lite-les1/Mirte-tekening.png" style="width:auto; height:150px;">
+       <img src="_static/media/mirte-lite/mirte-lite-les1/mirte-tekening.png" style="width:auto; height:150px;">
        <span class= "smaller40 popuptext">Wanneer je met de muis over een afbeelding heen gaat, krijg je extra informatie over wat er op de afbeelding te zien is. Ben je een ouder, begeleider of docent? Dan kan deze informatie ook handig zijn voor het begeleiden van een kind/leerling of het voorbereiden van de les.</span> 
       </div>
 
@@ -98,7 +98,7 @@ Les 1: Kennismaken met robots
     <div class="row">
     <div class="column">
     <div class="popup">
-       <img src="_static/media/mirte-lite/mirte-lite-les1/pexels-hyundaimotorgroup-19319639.jpg" style="width:auto; height:200px;">
+       <img src="_static/media/mirte-lite/mirte-lite-les1/spot-pexels-hyundaimotorgroup.jpg" style="width:auto; height:200px;">
        <span class= "smaller40 popuptext">Spot is een viervoetige robot die voor verschillende dingen ingezet kan worden. Hij kan bijvoorbeeld een (robot)handje helpen bij het in elkaar zetten van auto's.<br><i>Foto door Hyundai Motor Group via <a href="https://www.pexels.com/photo/boston-dynamics-robot-in-a-car-factory-19319639/">Pexels</a></i></span>
       </div>
     <div style="clear: both;"></div>
@@ -109,7 +109,7 @@ Les 1: Kennismaken met robots
 
     <div class="column">
     <div class="popup">
-       <img src="_static/media/mirte-lite/mirte-lite-les1/LelyJunoMax-Largefarmoperation.jpg" style="width:auto; height:200px;">
+       <img src="_static/media/mirte-lite/mirte-lite-les1/lelyjunomax-largefarmoperation.jpg" style="width:auto; height:200px;">
        <span class= "smaller40 popuptext">Wanneer koeien in de stal het versgemaaide gras proberen te eten, schuiven ze ook een groot gedeelte weg met hun neus. De Juno Max is een robot die het gras in de stal weer netjes terugschuift, zodat de koeien er altijd bij kunnen. Met behulp van sensoren zorgt de robot ervoor dat het om obstakels in de stal heen rijdt en het gras op de juiste afstand aanschuift. <br><i>Foto: © 2024 Lely International N.V.</i></span>
       </div>
     <div style="clear: both;"></div>
@@ -120,7 +120,7 @@ Les 1: Kennismaken met robots
 
     <div class="column">
     <div class="popup">
-       <img src="_static/media/mirte-lite/mirte-lite-les1/pexels-ron-lach-10567498.jpg" style="width:auto; height:200px;">
+       <img src="_static/media/mirte-lite/mirte-lite-les1/robotstofzuiger-pexels-ron-lach.jpg" style="width:auto; height:200px;">
        <span class= "smaller40 popuptext">Een robotstofzuiger gebruikt een sensor om een plattegrond van het huis te maken en zorgt er vervolgens voor dat elk hoekje in de kamer schoongemaakt wordt. <br><i>Foto door Ron Lach via <a href="https://www.pexels.com/photo/desk-area-and-cleaning-robot-on-floor-10567498/">Pexels</a></i></span> 
       </div>
     <div style="clear: both;"></div>
@@ -150,10 +150,10 @@ Les 1: Kennismaken met robots
 .. raw:: html
 
    <div class="grid-container">
-        <button class="button4 smaller30"><img src="_static/media/mirte-lite/mirte-lite-les1/planetcare-5cpBWEl6y6c-unsplash.jpg"; style="width:auto; height:150px"> <br><i>Foto door PlanetCare via <a href="https://unsplash.com/photos/white-front-load-washing-machine-5cpBWEl6y6c">Unsplash</a></i></button>
-        <button class="button3 smaller30"><img src="_static/media/mirte-lite/mirte-lite-les1/45947_PIA24542-Looking-At-WATSON-Figure-3.jpg"; style="width:auto; height:150px"> <br><i>© 2024 NASA</i></button>
-        <button class="button3 smaller30"><img src="_static/media/mirte-lite/mirte-lite-les1/andy-kelly-0E_vhMVqL9g-unsplash.jpg"; style="width:auto; height:150px"> <br><i>Foto door Andy Kelly via <a href="https://unsplash.com/photos/photo-of-girl-laying-left-hand-on-white-digital-robot-0E_vhMVqL9g">Unsplash</a></i></button>
-        <button class="button4 smaller30"><img src="_static/media/mirte-lite/mirte-lite-les1/hendrik-morkel-SAX8xHrKJME-unsplash.jpg"; style="width:auto; height:150px"><br><i>Foto door Hendrik Morkel via <a href="https://unsplash.com/photos/black-iphone-5-on-white-table-SAX8xHrKJME">Unsplash</button>
+        <button class="button4 smaller30"><img src="_static/media/mirte-lite/mirte-lite-les1/wasmachine-unsplash-planetcare.jpg"; style="width:auto; height:150px"> <br><i>Foto door PlanetCare via <a href="https://unsplash.com/photos/white-front-load-washing-machine-5cpBWEl6y6c">Unsplash</a></i></button>
+        <button class="button3 smaller30"><img src="_static/media/mirte-lite/mirte-lite-les1/watson-nasa.jpg"; style="width:auto; height:150px"> <br><i>© 2024 NASA</i></button>
+        <button class="button3 smaller30"><img src="_static/media/mirte-lite/mirte-lite-les1/humanoid-unsplash-andykelly.jpg"; style="width:auto; height:150px"> <br><i>Foto door Andy Kelly via <a href="https://unsplash.com/photos/photo-of-girl-laying-left-hand-on-white-digital-robot-0E_vhMVqL9g">Unsplash</a></i></button>
+        <button class="button4 smaller30"><img src="_static/media/mirte-lite/mirte-lite-les1/phone-unsplash-hendrikmorkel.jpg"; style="width:auto; height:150px"><br><i>Foto door Hendrik Morkel via <a href="https://unsplash.com/photos/black-iphone-5-on-white-table-SAX8xHrKJME">Unsplash</button>
    </div>
 
 .. raw:: html
@@ -305,7 +305,7 @@ Les 1: Kennismaken met robots
         - Een dobbelsteen
         - Potlood of pen
 
-        .. image:: _static/media/mirte-lite/mirte-lite-les1/Robots.png
+        .. image:: _static/media/mirte-lite/mirte-lite-les1/robots.png
            :width: 450px
 
 
@@ -335,7 +335,7 @@ Les 1: Kennismaken met robots
     <div class="row">
     <div class="column">
     <div class="popup">
-        <img src="_static/media/mirte-lite/mirte-lite-les1/pexels-hyundaimotorgroup-19233057.jpg" style="width:auto; height:170px;">
+        <img src="_static/media/mirte-lite/mirte-lite-les1/industrialrobot-pexels-hyundaimotorgroup.jpg" style="width:auto; height:170px;">
         <span class="popuptext smaller40">Industriële robots helpen in de fabriek. Bijvoorbeeld met het in elkaar zetten van een auto. <br><i>Foto door Hyundai Motor Group via <a href="https://www.pexels.com/photo/assembling-machines-in-factory-19233057/">Pexels</a></i></span>
         </div>
     <div style="clear: both;"></div>
@@ -346,7 +346,7 @@ Les 1: Kennismaken met robots
 
     <div class="column">
     <div class="popup">
-        <img src="_static/media/mirte-lite/mirte-lite-les1/Medische-robot.jpeg" style="width:auto; height:170px;">
+        <img src="_static/media/mirte-lite/mirte-lite-les1/medicalrobot-pexels-leonaschemann.jpeg" style="width:auto; height:170px;">
         <span class="popuptext smaller40">Medische of zorgrobots helpen in het ziekenhuis of bij het verzorgen van mensen.<br><i>Foto door Leon Aschemann via <a href="https://www.pexels.com/photo/mahdrescher-ernte-27420255/">Pexels</a></i></span>
         </div>
     <div style="clear: both;"></div>
@@ -357,7 +357,7 @@ Les 1: Kennismaken met robots
 
     <div class="column">
     <div class="popup">
-        <img src="_static/media/mirte-lite/mirte-lite-les1/lawn-mower-4502093_1920.jpg" style="width:auto; height:170px;">
+        <img src="_static/media/mirte-lite/mirte-lite-les1/lawnmower-pixabay-karstenpaulick.jpg" style="width:auto; height:170px;">
         <span class="popuptext smaller40">Deze robots bieden ondersteuning in en rondom het huis, zoals door het gras te maaien.<br><i>Foto door Karsten Paulick via <a href="https://pixabay.com/photos/lawn-mower-battery-mower-4502093/">Pixabay</a></i></span>
         </div>
     <div style="clear: both;"></div>
@@ -387,7 +387,7 @@ Les 1: Kennismaken met robots
     <div class="row">
     <div class="column">
     <div class="popup">
-        <img src="_static/media/mirte-lite/mirte-lite-les1/Onderwijs-robot.jpg" style="width:auto; height:170px;">
+        <img src="_static/media/mirte-lite/mirte-lite-les1/onderwijs-robot.jpg" style="width:auto; height:170px;">
         <span class="popuptext smaller40">Deze robots zijn bedoeld om jou meer te leren over robotica, net zoals de MIRTE robot.<br><i>Foto door Thijs van Reeuwijk via <a href="https://delta.tudelft.nl/en/article/new-lab-develops-robots-that-understand-humans">Delta</a></i></span>
         </div>
     <div style="clear: both;"></div>
@@ -398,7 +398,7 @@ Les 1: Kennismaken met robots
 
     <div class="column">
     <div class="popup">
-        <img src="_static/media/mirte-lite/mirte-lite-les1/pia26344-perseverance-selfie-at-cheyava.jpg" style="width:auto; height:170px;">
+        <img src="_static/media/mirte-lite/mirte-lite-les1/pia-nasa.jpg" style="width:auto; height:170px;">
         <span class="popuptext smaller40">Deze robots zijn geschikt om naar de ruimte te gaan en daar onderzoek te doen of elementen te verzamelen. <br><i>Foto: © 2024 NASA</i></span>
         </div>
     <div style="clear: both;"></div>
@@ -409,7 +409,7 @@ Les 1: Kennismaken met robots
 
     <div class="column">
     <div class="popup">
-        <img src="_static/media/mirte-lite/mirte-lite-les1/engineer-4915791_1920.jpg" style="width:auto; height:170px;">
+        <img src="_static/media/mirte-lite/mirte-lite-les1/agrarischerobot-pixabay-thisisengineering.jpg" style="width:auto; height:170px;">
         <span class="popuptext smaller40">Deze robots helpen mee op het land, door bijvoorbeeld de oogst te controleren. <br><i>Foto door This is Engineering via <a href="https://pixabay.com/photos/engineer-engineering-mechanical-4915791/">Pixabay</a></i></span>
         </div>
     <div style="clear: both;"></div>
@@ -494,7 +494,7 @@ Les 1: Kennismaken met robots
         <div class="grid-container3">
         <button class="button3"><img src="_static/media/mirte-lite/mirte-lite-les1/frame.png"; style="width:auto; height:100px">
         <div>frame</div></button>
-        <button class="button4"><img src="_static/media/mirte-lite/mirte-lite-les1/pexels-danielzh1-13310607.png"; style="width:auto; height:100px">
+        <button class="button4"><img src="_static/media/mirte-lite/mirte-lite-les1/controller-pexels-danialzh.png"; style="width:auto; height:100px">
         <div>controller<br><i>foto door Danial ZH via <a href="https://www.pexels.com/photo/close-up-photo-of-a-video-game-controller-13310607/">Pexels</a></i></div></button>
         <button class="button3"><img src="_static/media/mirte-lite/mirte-lite-les1/motor_driver.png"; style="width:auto; height:100px">
         <div>motor driver</div></button>
@@ -558,17 +558,17 @@ Les 1: Kennismaken met robots
 .. raw:: html
 
    <div class="grid-container3">
-        <button class="button3"><img src="_static/media/mirte-lite/mirte-lite-les1/pexels-jr-satilite-1139874-20526351.jpg"; style="width:auto; height:100px">
+        <button class="button3"><img src="_static/media/mirte-lite/mirte-lite-les1/mieren-pexels-jrsatilite.jpg"; style="width:auto; height:100px">
         <div>mieren <br><i>foto door Jr Satilite via <a href="https://www.pexels.com/photo/ants-climbing-orange-slice-lying-on-tree-branch-20526351/">Pexels</a></i></div></button>
-        <button class="button4"><img src="_static/media/mirte-lite/mirte-lite-les1/pexels-ganajp-6780351.jpg"; style="width:auto; height:100px">
+        <button class="button4"><img src="_static/media/mirte-lite/mirte-lite-les1/kikker-pexels-ganajp.jpg"; style="width:auto; height:100px">
         <div>kikkers <br><i>foto door Petr Ganaj via <a href="https://www.pexels.com/photo/a-frog-in-the-water-6780351/">Pexels</a></i></div></button>
-        <button class="button3"><img src="_static/media/mirte-lite/mirte-lite-les1/pexels-erik-karits-2093459-9689217.jpg"; style="width:auto; height:100px">
+        <button class="button3"><img src="_static/media/mirte-lite/mirte-lite-les1/fruitvliegen-pexels-erikkarits.jpg"; style="width:auto; height:100px">
         <div>fruitvliegjes <br><i>foto door Erik Karits via <a href="https://www.pexels.com/photo/macro-photo-of-a-yellow-fruit-fly-9689217/">Pexels</a></i></div></button>
    </div>
    <div class="grid-container">
-        <button class="button4"><img src="_static/media/mirte-lite/mirte-lite-les1/pexels-adnana-kelic-276310003-15804377.jpg"; style="width:auto; height:100px">
+        <button class="button4"><img src="_static/media/mirte-lite/mirte-lite-les1/katten-pexels-adnanakelic.jpg"; style="width:auto; height:100px">
         <div>katten <br><i>foto door Adnana Kelic via <a href="https://www.pexels.com/photo/three-white-and-orange-kittens-15804377/">Pexels</a></i></div></button>
-        <button class="button3"><img src="_static/media/mirte-lite/mirte-lite-les1/pexels-earano-10415079.jpg"; style="width:auto; height:100px">
+        <button class="button3"><img src="_static/media/mirte-lite/mirte-lite-les1/zwermvogels-pexels-earano.jpg"; style="width:auto; height:100px">
         <div>zwermvogels <br><i>foto door Emiliano Arano via <a href="https://www.pexels.com/photo/flock-of-birds-flying-over-the-lake-10415079/">Pexels</a></i></div></button> 
    </div>
 
@@ -597,7 +597,7 @@ Les 1: Kennismaken met robots
 --------------------
 
 .. revealjs-section::
-   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/MIRTE-end-of-line.png
+   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/mirte-end-of-line.png
 
 .. container:: smaller70
   

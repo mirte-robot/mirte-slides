@@ -4,7 +4,7 @@
 Les 2: Ontwerpen en bouwen
 
 .. revealjs-section::
-   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/MIRTE-ingekleurd-op-lijn.png
+   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/mirte-ingekleurd-op-lijn.png
 
 
 **Doel**
@@ -44,7 +44,7 @@ Les 2: Ontwerpen en bouwen
     <div class="row">
     <div class="column">    
     <div class="popup">
-    <img src="_static/media/mirte-lite/mirte-lite-les2/eva-blue-wmdVFw9ubKs-unsplash.jpg" style="width:auto; height:200px;">
+    <img src="_static/media/mirte-lite/mirte-lite-les2/ijsbeer-unsplash-evablue.jpg" style="width:auto; height:200px;">
     <span class="popuptext smaller40">Foto door Eva Blue via <a href="https://unsplash.com/photos/two-polar-bears-swimming-in-water-wmdVFw9ubKs">Unsplash</a></span>
     </div>
 
@@ -52,7 +52,7 @@ Les 2: Ontwerpen en bouwen
 
     <div class="column">
     <div class="popup">
-    <img src="_static/media/mirte-lite/mirte-lite-les2/matt-seymour-dQqO28G0kE4-unsplash.jpg" style="width:auto; height:200px;">
+    <img src="_static/media/mirte-lite/mirte-lite-les2/guidedog-unsplash-mattseymour.jpg" style="width:auto; height:200px;">
     <span class="popuptext smaller40">Foto door Matt Seymour via <a href="https://unsplash.com/photos/man-in-black-jacket-and-blue-denim-jeans-walking-with-white-and-black-short-coated-dog-dQqO28G0kE4">Unsplash</a></span>
     </div>
 
@@ -773,7 +773,7 @@ Les 2: Ontwerpen en bouwen
 --------------------
 
 .. revealjs-section::
-   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/MIRTE-end-of-line.png
+   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/mirte-end-of-line.png
 
 .. container:: smaller70
   

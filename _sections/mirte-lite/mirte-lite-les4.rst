@@ -4,7 +4,7 @@
 Les 4: Elektronica aansluiten
 
 .. revealjs-section::
-   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/MIRTE-ingekleurd-op-lijn.png
+   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/mirte-ingekleurd-op-lijn.png
 
 
 **Doel**
@@ -385,7 +385,7 @@ Les 4: Elektronica aansluiten
 --------------------
 
 .. revealjs-section::
-   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/MIRTE-end-of-line.png
+   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/mirte-end-of-line.png
 
 .. container:: smaller70
   

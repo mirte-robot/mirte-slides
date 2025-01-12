@@ -4,7 +4,7 @@
 Les 5: Offline programmeren
 
 .. revealjs-section::
-   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/MIRTE-ingekleurd-op-lijn.png
+   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/mirte-ingekleurd-op-lijn.png
 
 
 **Doel**
@@ -23,13 +23,13 @@ Les 5: Offline programmeren
    Het lijkt erop dat deze les nog niet af is. Nog even geduld voordat je verder kunt met de laatste les van MIRTE lite. 
 
 .. revealjs-section::
-   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/MIRTE-ingekleurd-op-lijn.png
+   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/mirte-ingekleurd-op-lijn.png
 
 **Einde lespakket MIRTE lite**
 --------------------
 
 .. revealjs-section::
-   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/MIRTE-end-of-line.png
+   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/mirte-end-of-line.png
 
 .. container:: smaller70
   
