@@ -48,8 +48,8 @@ jobs:
   deploy:
     # Add a dependency to the build job
     needs: build
-    # only build if on arendjan/... and mirte-master or on any other user and main
-    if: github.ref == 'refs/heads/main' || true
+    # only build if not on mirte-robot organisation or on main branch
+    if: github.ref == 'refs/heads/main' || github.repository != 'mirte-robot/mirte-slides'
     permissions:
       pages: write      # to deploy to Pages
       id-token: write   # to verify the deployment originates from an appropriate source
