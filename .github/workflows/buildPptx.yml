@@ -54,8 +54,8 @@ jobs:
           name: act_dist
           path: |
             # revealjs.zip
-            slides_lite.pdf
-            slides_lite.pptx
+            lite/slides_lite.pdf
+            lite/slides_lite.pptx
       # - name: Upload as a github-pages artifact
       #   uses: actions/upload-pages-artifact@v3
       #   with: 
