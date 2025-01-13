@@ -9,13 +9,14 @@ jobs:
     #   image: althack/ros:noetic-dev
     steps:
       - uses: actions/checkout@v4
-      - name: Install dependencies
+      - name: Install dependencies lite
         run: |
           sudo apt update
           sudo apt install libenchant-2-dev -y python3-empy zip
           python3 -m pip install --upgrade pip
           python3 --version
           sudo apt install python3-venv -y
+          cd lite
           python3 -m venv docs-env
           . docs-env/bin/activate
           pip install -r requirements.txt
@@ -33,23 +34,22 @@ jobs:
         with:
           name: dist
           path: |
-            _build/revealjs
-      # - name: Archive production artifacts for act
-      #   uses: actions/upload-artifact@v4
-      #   with:
-      #     name: act_dist
-      #     path: |
-      #       site.zip
+            lite/_build/revealjs
+      - name: move files for site
+        run: |
+          mkdir site_out
+          mv lite/_build/revealjs site_out/lite
+          mv static/* site_out/
       - name: Upload as a github-pages artifact
         uses: actions/upload-pages-artifact@v3
         with: 
-          path: _build/revealjs
+          path: site_out/
 
   deploy:
     # Add a dependency to the build job
     needs: build
-    # only build if on arendjan/... and mirte-master or on any other user and main
-    if: github.ref == 'refs/heads/main' || true
+    # only build if not on mirte-robot organisation or on main branch
+    if: github.ref == 'refs/heads/main' || github.repository != 'mirte-robot/mirte-slides'
     permissions:
       pages: write      # to deploy to Pages
       id-token: write   # to verify the deployment originates from an appropriate source

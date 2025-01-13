@@ -21,7 +21,10 @@ jobs:
           sudo apt update
           sudo apt install libenchant-2-dev -y
           python -m pip install --upgrade pip
+          cd lite/
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Test external urls
         run: |
-          make linkcheck
+          pwd
+          cd lite/
+          make linkcheck 
