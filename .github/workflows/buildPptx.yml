@@ -18,6 +18,7 @@ jobs:
           sudo cp Overpass-3.0.5/desktop-fonts/* /usr/local/share/fonts -r
           fc-cache -f -v
           sudo apt install python3-venv zip libreoffice npm -y
+          cd lite/
           python3 -m venv sphinx-env
           . sphinx-env/bin/activate
           pip install -r requirements.txt
@@ -39,9 +40,9 @@ jobs:
           make revealjs
           cd _build/revealjs
           zip -r ../../revealjs.zip .
-          decktape --chrome-arg=--no-sandbox ./index.html ../../slides.pdf
+          decktape --chrome-arg=--no-sandbox ./index.html ../../slides_lite.pdf
           cd ../../
-          soffice --infilter="impress_pdf_import" --convert-to pptx slides.pdf
+          soffice --infilter="impress_pdf_import" --convert-to pptx slides_lite.pdf
       # - name: Archive production artifacts
       #   uses: actions/upload-artifact@v4
       #   with:
@@ -54,8 +55,8 @@ jobs:
           name: act_dist
           path: |
             # revealjs.zip
-            slides.pdf
-            slides.pptx
+            slides_lite.pdf
+            slides_lite.pptx
       # - name: Upload as a github-pages artifact
       #   uses: actions/upload-pages-artifact@v3
       #   with: 
