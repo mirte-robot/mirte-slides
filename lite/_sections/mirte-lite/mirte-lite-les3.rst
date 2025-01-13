@@ -25,7 +25,7 @@ Les 3: Alles over wielen
 .. raw:: html
    
    <div class="popup">
-   <img src="_static/media/mirte-lite/mirte-lite-les3/trafic-pexels-vladfonsark.jpg" style="width:auto; height:300px;">
+   <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les3/trafic-pexels-vladfonsark.jpg" style="width:auto; height:300px;">
    <span class="popuptext smaller40">Foto door Vlad Fonsark via <a href="https://www.pexels.com/photo/tram-and-cars-in-traffic-jam-at-rush-hour-4993448/">Pexels</a></span>
    </div>
 
@@ -60,7 +60,7 @@ Les 3: Alles over wielen
     <div class="row">
     <div class="column">
     <div class="popup_copyright">
-        <img src="_static/media/mirte-lite/mirte-lite-les3/autowiel-unsplash-alexandrbendus.jpg" style="width:250px; height:auto;">
+        <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les3/autowiel-unsplash-alexandrbendus.jpg" style="width:250px; height:auto;">
         <span class="popuptext smaller40">Autowielen hebben over het algemeen veel grip met de weg, waardoor een auto niet makkelijk kan uitglijden.<br><i>Foto door Александр Бендус via <a href="https://unsplash.com/photos/a-couple-of-cars-parked-next-to-each-other-1EfzQlH8yMo/">Unsplash</a></i></span>
         </div>
     <div style="clear: both;"></div>
@@ -71,7 +71,7 @@ Les 3: Alles over wielen
 
     <div class="column">
     <div class="popup_copyright">
-        <img src="_static/media/mirte-lite/mirte-lite-les3/zwenkwiel-unsplash-americangreentravel.jpg" style="width:250px; height:auto;">
+        <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les3/zwenkwiel-unsplash-americangreentravel.jpg" style="width:250px; height:auto;">
         <span class="popuptext smaller40">Zwenkwielen kunnen van richting veranderen, waardoor je er goed mee kunt sturen.<br><i>Foto door American Green Travel via <a href="https://unsplash.com/photos/a-piece-of-luggage-sitting-on-top-of-a-wooden-floor-VqLqFGdy4mg/">Unsplash</a></i></span>
         </div>
     <div style="clear: both;"></div>
@@ -82,7 +82,7 @@ Les 3: Alles over wielen
 
     <div class="column">
     <div class="popup_copyright">
-        <img src="_static/media/mirte-lite/mirte-lite-les3/rupsband-unsplash-izzuddinazzam.jpg" style="width:250px; height:auto;">
+        <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les3/rupsband-unsplash-izzuddinazzam.jpg" style="width:250px; height:auto;">
         <span class="popuptext smaller40">Rupsbanden kunnen op allerlei soorten tereinen rijden, zonder dat de banden wegzakken in de grond.<br><i>Foto door Izzuddin Azzam via <a href="https://unsplash.com/photos/a-row-of-yellow-and-blue-construction-machines-HKBtu2w52DA/">Unsplash</a></i></span>
         </div>
     <div style="clear: both;"></div>
@@ -112,7 +112,7 @@ Les 3: Alles over wielen
     <div class="row">
     <div class="column">
     <div class="popup_copyright">
-        <img src="_static/media/mirte-lite/mirte-lite-les3/mirte-master.jpg" style="width:250px; height:auto;">
+        <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les3/mirte-master.jpg" style="width:250px; height:auto;">
         <span class="popuptext smaller40">Mecanum wielen kunnen zowel naar voren en achteren, als naar links en rechts bewegen. Zo kan een robot ook zijdelings bewegen.</span>
         </div>
     <div style="clear: both;"></div>
@@ -123,7 +123,7 @@ Les 3: Alles over wielen
 
    <div class="column">
     <div class="popup_copyright">
-        <img src="_static/media/mirte-lite/mirte-lite-les3/fietswiel-pexels-bluebird.jpg" style="width:250px; height:auto;">
+        <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les3/fietswiel-pexels-bluebird.jpg" style="width:250px; height:auto;">
         <span class="popuptext smaller40">Fietswielen zijn licht van gewicht en kunnen makkelijk gerepareerd worden. <br><i>Foto door Blue Bird via <a href="https://www.pexels.com/photo/crop-woman-with-bicycle-walking-on-urban-pavement-7242946/">Pexels</a></i></span>
         </div>
     <div style="clear: both;"></div>
@@ -134,7 +134,7 @@ Les 3: Alles over wielen
 
     <div class="column">
     <div class="popup_copyright">
-        <img src="_static/media/mirte-lite/mirte-lite-les3/kogelwiel_foto.jpg" style="width:250px; height:auto;">
+        <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les3/kogelwiel_foto.jpg" style="width:250px; height:auto;">
         <span class="popuptext smaller40">Een kogelwiel biedt extra ondersteuning en kan alle kanten op rollen.</span>
         </div>
     <div style="clear: both;"></div>
@@ -157,17 +157,17 @@ Les 3: Alles over wielen
 .. raw:: html
 
    <div class="grid-container3">
-        <button class="button3"><img src="_static/media/mirte-lite/mirte-lite-les3/autowiel-unsplash-alexandrbendus.jpg"; style="width:auto; height:150px">
+        <button class="button3"><img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les3/autowiel-unsplash-alexandrbendus.jpg"; style="width:auto; height:150px">
         <div>autowiel</div></button>
-        <button class="button4"><img src="_static/media/mirte-lite/mirte-lite-les3/zwenkwiel-unsplash-americangreentravel.jpg"; style="width:auto; height:150px">
+        <button class="button4"><img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les3/zwenkwiel-unsplash-americangreentravel.jpg"; style="width:auto; height:150px">
         <div>zwenkwiel</div></button>
-        <button class="button4"><img src="_static/media/mirte-lite/mirte-lite-les3/rupsband-unsplash-izzuddinazzam.jpg"; style="width:auto; height:150px">
+        <button class="button4"><img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les3/rupsband-unsplash-izzuddinazzam.jpg"; style="width:auto; height:150px">
         <div>rupsband</div></button>
-        <button class="button4"><img src="_static/media/mirte-lite/mirte-lite-les3/mirte-master.jpg"; style="width:auto; height:150px">
+        <button class="button4"><img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les3/mirte-master.jpg"; style="width:auto; height:150px">
         <div>mecanum wiel</div></button>
-        <button class="button4"><img src="_static/media/mirte-lite/mirte-lite-les3/fietswiel-pexels-bluebird.jpg"; style="width:auto; height:150px">
+        <button class="button4"><img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les3/fietswiel-pexels-bluebird.jpg"; style="width:auto; height:150px">
         <div>fietswiel</div></button>
-        <button class="button3"><img src="_static/media/mirte-lite/mirte-lite-les3/kogelwiel_foto.jpg"; style="width:auto; height:150px">
+        <button class="button3"><img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les3/kogelwiel_foto.jpg"; style="width:auto; height:150px">
         <div>kogelwiel</div></button>
    </div>
 
@@ -183,7 +183,7 @@ Les 3: Alles over wielen
 .. raw:: html
 
     <div class="popup">
-     <img src="_static/media/mirte-lite/mirte-lite-les3/nuna11s-ssc2022-jorritlousberg.jpg" style="width:auto; height:180px;">
+     <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les3/nuna11s-ssc2022-jorritlousberg.jpg" style="width:auto; height:180px;">
      <span class="popuptext smaller40">Bij Nuna draait alles om duurzaamheid en efficiëntie. De beste zonnepanelen zorgen ervoor dat er meer energie opgewekt kan worden. Als de auto minder weegt, is er minder kracht en energie nodig om de auto vooruit te laten bewegen. Zo min mogelijk wrijving met de grond zorgt ervoor dat Nuna minder energie verbruikt tijdens het rijden. <br><i>© 2022 Brunel Solar Team. Foto door Jorrit Lousberg. <a href="https://www.tudelft.nl/2019/tu-delft/zwerm-kleine-drones-verkent-onbekende-omgeving#:~:text=Inspiratie%20uit%20de%20natuur,vallen%20van%20grote%2C%20individuele%20robots."></i></a></span>
     </div>
 

@@ -8,7 +8,7 @@ from sphinx_revealjs.utils import get_revealjs_path
 
 # -- Project information -----------------------------------------------------
 project = "sphinx-revealjs"
-copyright = "2024, Delft University of Technology"
+copyright = "2025, Delft University of Technology"
 author = "Martin Klomp"
 version = ""
 release = ""

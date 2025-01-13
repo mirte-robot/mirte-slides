@@ -64,7 +64,7 @@ Les 4: Elektronica aansluiten
 
     <div class="row">
     <div class="column">
-    <img src="_static/media/mirte-lite/mirte-lite-les4/stroomkring-a.png" style="width:auto; height:300px;">
+    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/stroomkring-a.png" style="width:auto; height:300px;">
 
     </div>
 
@@ -110,7 +110,7 @@ Les 4: Elektronica aansluiten
 
     <div class="row">
     <div class="column">
-    <img src="_static/media/mirte-lite/mirte-lite-les4/stroomkring-b.png" style="width:auto; height:300px;">
+    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/stroomkring-b.png" style="width:auto; height:300px;">
 
     </div>
 
@@ -155,7 +155,7 @@ Les 4: Elektronica aansluiten
 
     <div class="row">
     <div class="column">
-    <img src="_static/media/mirte-lite/mirte-lite-les4/stroomkring-c.png" style="width:auto; height:300px;">
+    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/stroomkring-c.png" style="width:auto; height:300px;">
 
     </div>
 
@@ -201,7 +201,7 @@ Les 4: Elektronica aansluiten
 
     <div class="row">
     <div class="column">
-    <img src="_static/media/mirte-lite/mirte-lite-les4/male_male.png" style="width:auto; height:200px;">
+    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/male_male.png" style="width:auto; height:200px;">
     <div style="clear: both;"></div>
     
     <div class="smaller40">4x kabel</div>
@@ -209,7 +209,7 @@ Les 4: Elektronica aansluiten
     </div>
 
     <div class="column">
-    <img src="_static/media/mirte-lite/mirte-lite-les4/male_female.png" style="width:auto; height:200px;">
+    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/male_female.png" style="width:auto; height:200px;">
     <div style="clear: both;"></div>
 
     <div class="smaller40">6x kabel</div>
@@ -217,7 +217,7 @@ Les 4: Elektronica aansluiten
     </div>
 
     <div class="column">
-    <img src="_static/media/mirte-lite/mirte-lite-les2/schroevendraaier.png" style="width:auto; height:200px;">
+    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/schroevendraaier.png" style="width:auto; height:200px;">
     <div style="clear: both;"></div>
 
     <div class="smaller40">schroevendraaier</div>
@@ -256,12 +256,12 @@ Les 4: Elektronica aansluiten
 
     <div class="row">
     <div class="column">
-    <img src="_static/media/mirte-lite/mirte-lite-les4/motor_driver_explanation.png" style="width:auto; height:250px;">
+    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/motor_driver_explanation.png" style="width:auto; height:250px;">
 
     </div>
 
     <div class="column">
-    <img src="_static/media/mirte-lite/mirte-lite-les4/elektronica-schema-motoren.png" style="width:auto; height:200px;">
+    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/elektronica-schema-motoren.png" style="width:auto; height:200px;">
 
     </div>
 
@@ -297,7 +297,7 @@ Les 4: Elektronica aansluiten
 
     <div class="row">
     <div class="column">
-     <img src="_static/media/mirte-lite/mirte-lite-les4/male_male.png" style="width:auto; height:200px;">
+     <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/male_male.png" style="width:auto; height:200px;">
     <div style="clear: both;"></div>
     
     <div class="smaller40">4x</div>
@@ -305,7 +305,7 @@ Les 4: Elektronica aansluiten
     </div>
 
     <div class="column">
-    <img src="_static/media/mirte-lite/mirte-lite-les4/elektronica-schema-motor-driver.png" style="width:auto; height:200;">
+    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/elektronica-schema-motor-driver.png" style="width:auto; height:200;">
 
     </div>
 
@@ -341,7 +341,7 @@ Les 4: Elektronica aansluiten
 
     <div class="row">
     <div class="column">
-    <img src="_static/media/mirte-lite/mirte-lite-les4/male_female.png" style="width:auto; height:200px;">
+    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/male_female.png" style="width:auto; height:200px;">
     <div style="clear: both;"></div>
 
     <div class="smaller40">6x</div>
@@ -349,7 +349,7 @@ Les 4: Elektronica aansluiten
     </div>
 
     <div class="column">
-    <img src="_static/media/mirte-lite/mirte-lite-les4/elektronica-schema-sensoren.png" style="width:600px; height:auto;">
+    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/elektronica-schema-sensoren.png" style="width:600px; height:auto;">
 
     </div>
 
@@ -377,7 +377,7 @@ Les 4: Elektronica aansluiten
 .. raw:: html
 
    <div class="popup">
-   <img src="_static/media/mirte-lite/mirte-lite-les1/informatie-vraagteken.png" style="width:auto; height:50px;">
+   <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les1/informatie-vraagteken.png" style="width:auto; height:50px;">
    <span class="popuptext smaller40">Draaien de wielen de verkeerde kant op? Controleer of je de motoren in de goede volgorde hebt aangesloten. <br>Draaien de wielen helemaal niet? Controleer of alle kabels goed aangesloten zijn en of de batterijen vol zijn.</span>
    </div>
 
