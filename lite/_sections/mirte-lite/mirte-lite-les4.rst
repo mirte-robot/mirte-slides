@@ -305,7 +305,7 @@ Les 4: Elektronica aansluiten
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/elektronica-schema-motor-driver.png" style="width:auto; height:200;">
+    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/elektronica-schema-motordriver.png" style="width:auto; height:200;">
 
     </div>
 
@@ -363,7 +363,7 @@ Les 4: Elektronica aansluiten
 
    Om het stroomschema compleet te maken, moet alleen de krachtbron nog aangesloten worden. Let op! Zorg ervoor dat de rode kabel op de plus kant van het breadboard wordt aangesloten en de zwarte kabel op de min kant. Zorg er ook voor dat de batterijhouder uitgeschakeld (OFF) is.
 
-.. image:: _static/media/mirte-lite/mirte-lite-les4/elektronica_schema_compleet.png
+.. image:: _static/media/mirte-lite/mirte-lite-les4/elektronica-schema-compleet.png
    :width: 500px
 
 
