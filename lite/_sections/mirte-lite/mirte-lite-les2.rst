@@ -320,7 +320,7 @@ Les 2: Ontwerpen en bouwen
     <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/obstakelsensoren.png" style="width:auto; height:110px;">
     <div style="clear: both;"></div>
 
-    <div class="smaller40">2 obstakel sensoren</div>
+    <div class="smaller40">2 obstakelsensoren</div>
 
     </div>
 
