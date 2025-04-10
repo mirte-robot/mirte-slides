@@ -372,7 +372,7 @@ Les 4: Elektronica aansluiten
 
 .. container:: smaller70
 
-   Als je alles hebt aangesloten, kun je nu de robot testen. Til de robot op en schuif het knopje op de batterijhouder van OFF naar ON om de stroomkring te sluiten. Als het goed is draaien nu beide wielen naar voren. Houd nu je hand voor de rechter obstakel sensor. Nu zou het linker wiel moeten stoppen draaien. Houd vervolgens je hand voor de linker obstakel sensor. Nu hoort het rechter wiel te stoppen met draaien.
+   Als je alles hebt aangesloten, kun je nu de robot testen. Til de robot op en schuif het knopje op de batterijhouder van OFF naar ON om de stroomkring te sluiten. Als het goed is draaien nu beide wielen naar voren. Houd nu je hand voor de rechter obstakelsensor. Nu zou het linker wiel moeten stoppen met draaien. Houd vervolgens je hand voor de linker obstakelsensor. Nu hoort het rechter wiel te stoppen met draaien.
 
 .. raw:: html
 
