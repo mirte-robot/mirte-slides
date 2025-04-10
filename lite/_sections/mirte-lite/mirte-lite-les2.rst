@@ -81,7 +81,7 @@ Les 2: Ontwerpen en bouwen
         - Lijm of dubbelzijdig tape
 
 
-**Vouw- en plakinstructies**
+**Vouw- en plakuitleg**
 -----------------------------
 
 .. container:: smaller70
@@ -90,13 +90,13 @@ Les 2: Ontwerpen en bouwen
 
 .. container:: smaller50
 
-   Begin met het vouwen van alle vouwlijnen. In de tekening hieronder zijn deze lijnen in het blauw weergegeven. Zorg ervoor dat de gladde kant van het kapje naar binnen wijst. 
+   Begin met het vouwen van alle vouwlijnen. In de tekening hieronder zijn deze lijnen in het blauw weergegeven. 
 
 .. image:: _static/media/mirte-lite/mirte-lite-les2/plakvouwinstructies_stap1.svg
    :width: 450px
 
 
-**Vouw- en plakinstructies**
+**Vouw- en plakuitleg**
 -----------------------------
 
 .. container:: smaller70
@@ -164,6 +164,7 @@ Les 2: Ontwerpen en bouwen
       Bij deze opdracht horen een paar ontwerpcriteria. Dit zijn de spelregels waar jouw ontwerp aan moet voldoen. 
 
       #. Jouw robot moet eruit zien als een dier of insect.
+      #. Jouw robot moet een duidelijke voor- en achterkant hebben. 
       #. Jouw robot moet kunnen rijden.
 
 
@@ -319,7 +320,7 @@ Les 2: Ontwerpen en bouwen
     <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/obstakelsensoren.png" style="width:auto; height:110px;">
     <div style="clear: both;"></div>
 
-    <div class="smaller40">2 obstakel sensoren</div>
+    <div class="smaller40">2 obstakelsensoren</div>
 
     </div>
 
@@ -533,6 +534,7 @@ Les 2: Ontwerpen en bouwen
     <div style="clear: both;"></div>
     
     <div class="smaller50">stap 10</div>
+    <div class="smaller40"><b>Let op:</b><br>Zorg ervoor dat de kabels van beide motoren naar binnen wijzen!</div>
 
     </div>
 
