@@ -6,7 +6,7 @@
 ```bash
 cd lite
 python3 -m venv docs_env                             
-docs_env/bin/activate
+docs_env\Scripts\activate.bat
 pip install -r requirements.txt
 playwright install # (optional with --with-deps)
 make revealjs
