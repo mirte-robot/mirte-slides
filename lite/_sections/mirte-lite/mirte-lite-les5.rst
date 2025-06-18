@@ -75,7 +75,7 @@ Les 5: Offline programmeren
    Als het goed is ben je na het uitvoeren van lijst 2 in de positie geeïndigd die hieronder wordt afgebeeld, maar eindigde je na het uitvoeren van lijst 1 in een hele andere houding. Je moet dus met programmeren de taken heel specifiek uitleggen, anders kan er zo maar iets anders gebeuren. 
 
 
-.. image:: _static/media/mirte-lite/mirte-lite-les5/eindhouding_persoon.png
+.. image:: _static/media/mirte-lite/mirte-lite-les5/houding_persoon.png
    :width: 250px
 
 
@@ -84,7 +84,11 @@ Les 5: Offline programmeren
 
 .. container:: smaller70
 
-   Nu mag je zelf proberen om een opdracht te schrijven, zodat deze goed uitgevoerd kan worden. Begin met een dichte etui en een leeg vel papier op tafel en omschrijf alle stappen die nodig zijn om te eindigen met 5 cirkels en 3 vierkanten getekend op het vel papier, met de pen of het potlood weer terug in de dichte etui. Test of je stappenplan klopt door het aan iemand anders te geven die het moet uitvoeren. 
+   Nu mag je zelf proberen om een opdracht te schrijven, zodat deze goed uitgevoerd kan worden. Begin met een pen en een leeg vel papier op tafel. Omschrijf alle stappen die nodig zijn om te eindigen met 5 cirkels en 3 vierkanten getekend op het vel papier. Test of je stappenplan klopt door het aan iemand anders te geven die het moet uitvoeren. 
+
+
+.. image:: _static/media/mirte-lite/mirte-lite-les5/tekenopdract_vierkant_rond.png
+   :width: 500px
 
 
 **Opdracht korter maken**
@@ -92,7 +96,51 @@ Les 5: Offline programmeren
 
 .. container:: smaller70
 
-   Sommigen opdrachten voor robots kunnen heel erg lang zijn. Daarom willen we de opdrachten zo kort mogelijk maar wel duidelijk opschrijven. Gebruik het voorbeeld hieronder. Kun je met deze manier de tekenopdracht van de pagina hiervoor korter opschrijven? 
+   Sommigen opdrachten voor robots kunnen heel erg lang zijn. Daarom willen we de opdrachten zo kort mogelijk, maar wel duidelijk opschrijven. Gebruik het voorbeeld hieronder. Kun je met deze manier de tekenopdracht van de pagina hiervoor korter opschrijven? 
+
+
+.. image:: _static/media/mirte-lite/mirte-lite-les5/code_kort.png
+   :width: 500px
+
+
+**Opdracht voor de robot**
+--------------------
+
+.. container:: smaller70
+
+   Nu ga je een opdracht voor de robot maken. Onderzoekers van de TU Delft willen de robot verbeteren, maar hiervoor missen zij nog een paar onderdelen. Lukt het jou om de robot de goede route te laten volgen en alle onderdelen op te halen?
+
+
+**Route voor de robot**
+--------------------
+
+.. container:: smaller70
+
+   Op de volgende pagina kun je een plattegrond van de TU Delft vinden. Hieronder staan alle locaties waar de robot onderdelen moet ophalen. 
+
+
+.. container:: flex-container
+
+   .. container:: half smaller50
+    
+        **Hoe werkt het?**
+        
+        - De robot kan obstakels herkennen en daarop reageren. Ziet een robot een obstakel links, dan rijdt de robot naar rechts en andersom.
+        - Door obstakels op de plattegrond te plaatsen, kun je de robot een kant op sturen. Denk aan boeken, kartonnen dozen, etui's, etc. Wees creatief!
+        - Je mag zelf de volgorde van de route bepalen die de robot gaat rijden, zolang de robot niet van de plattegrond af gaat.
+      
+
+   .. container:: half smaller50
+
+        **Wat en waar de robot iets moet ophalen:**
+
+        - Het start- en eindpunt is bij het Science Centre (vak @).
+        - Boutjes en moertjes bij de Bouwpub (vak @).
+        - Extra onderdelen voor het frame bij Mechanical Engineering (vak @).
+        - Extra kabels bij EWI (vak @).
+        - Laptop bij de bibliotheek (vak @).
+        - Extra sensoren bij de Dreamhall (vak @).
+
 
 
 **Oeps**
