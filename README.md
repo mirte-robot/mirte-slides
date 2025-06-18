@@ -4,6 +4,7 @@
 
 ## Windows:
 ```bash
+cmd # switch to cmd, powershell doesn't work with the .bat version
 cd lite
 python3 -m venv docs_env                             
 docs_env\Scripts\activate.bat
