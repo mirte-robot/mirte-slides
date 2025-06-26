@@ -134,24 +134,52 @@ Les 5: Offline programmeren
 
         **Wat en waar de robot iets moet ophalen:**
 
-        - Het start- en eindpunt is bij het Science Centre (vak @).
-        - Boutjes en moertjes bij de Bouwpub (vak @).
-        - Extra onderdelen voor het frame bij Mechanical Engineering (vak @).
-        - Extra kabels bij EWI (vak @).
-        - Laptop bij de bibliotheek (vak @).
-        - Extra sensoren bij de Dreamhall (vak @).
+        - Het start- en eindpunt is bij het Science Centre (vak F7).
+        - Boutjes en moertjes bij de Bouwpub (vak F1).
+        - Extra onderdelen voor het frame bij Mechanical Engineering (vak B3).
+        - Extra kabels bij EWI (vak B5).
+        - Laptop bij de bibliotheek (vak E3).
+        - Extra sensoren bij de Dreamhall (vak D5).
 
 
-
-**Oeps**
+**Plattegrond**
 --------------------
 
-.. revealjs-section::
-   :data-background-image: _static/media/mirte-lite/mirte-lite-les1/mirte-end-of-line.png
+.. container:: flex-container
+
+   .. container:: half smaller40
+    
+      .. image:: _static/media/mirte-lite/mirte-lite-les5/plattegrond_tu_campus.jpg
+           :width: 350px
+      Illustratie door Nynke Krabbenborg
+      
+
+   .. container:: half smaller50
+
+      Klik `hier <_static/media/mirte-lite/mirte-lite-les5/plattegrond_tu_campus.jpg>`_ om de afbeelding te downloaden of te vergroten.
+
+
+      Tip: Print de plattegrond op meerdere A4'tjes en plak deze aan elkaar of tape de vakken van de plattegrond op de grond, zodat de robot daaroverheen kan rijden. 
+
+
+**Uitbreiding**
+--------------------
 
 .. container:: smaller70
-  
-   Deze les lijkt nog niet helemaal af. Kom later terug om het lespakket van de MIRTE lite af te kunnen ronden.
+
+   Nog een keer de robot over de plattegrond laten rijden? Laat iemand anders een nieuwe route voor jou bedenken! 
+   Of daag jezelf uit en kies een paar vakken waar de robot niet overheen mag rijden. Bijvoorbeeld: alle vakken waar water te zien is, mag de robot niet overheen rijden. 
+
+.. raw:: html
+
+   <div class="popup">
+   <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les1/informatie-i.png" style="width:auto; height:50px;">
+   <span class="popuptext smaller40">Tip voor in de klas: Laat (groepjes) leerlingen routes voor elkaar bedenken en deze uitvoeren. Zo rijdt iedereen een andere route over de plattegrond. </span>
+   </div>
+
+.. container:: smaller40
+   
+   p.s. Heb je de kikker al gevonden? 
 
 
 
