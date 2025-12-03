@@ -1,7 +1,7 @@
 **MIRTE** lite 
 ==========================
 
-Les 4: Elektronica aansluiten
+Les 4: Offline programmeren
 
 .. revealjs-section::
    :data-background-image: _static/media/mirte-lite/mirte-lite-les1/mirte-ingekleurd-op-lijn.png
@@ -12,230 +12,27 @@ Les 4: Elektronica aansluiten
 
 .. container:: smaller70
 
-   In deze les leer je wat een stroomkring is en hoe je de elektronica van de robot moet aansluiten, zodat de robot zelfstandig kan rijden.
+   In deze les maak je kennis met programmeren en ga je jouw robot testen tijdens een spel. 
 
 
-**Wat is een stroomkring?**
+**Programmeren**
 --------------------
 
 .. container:: smaller70
 
-   In deze video van Schooltv.nl wordt uitgelegd wat een stroomkring is.
+   Door een robot te programmeren geef je de robot verschillende taken die de robot moet uitvoeren, in een taal die de robot begrijpt. Deze taken moeten erg specifiek zijn, anders kan de robot zo maar iets anders gaan doen.
+
+
+**Probeer het zelf uit**
+--------------------
+
+.. container:: smaller70
+
+   Hieronder staan twee lijstjes met taken. Voer beide lijstjes uit en onthoud goed hoe je na elk lijstje geeïndigd bent. Ga daarna door naar de volgende pagina.
+
 
 .. raw:: html
-
-  <iframe src="https://player.ntr.nl/index.php?id=WO_NTR_12999150" width="600" height="338" frameborder="0" allow="encrypted-media; geolocation" allowfullscreen=""></iframe>
-
-
-**Stroomkring test**
---------------------
-
-.. container:: smaller70
-
-   Op de volgende slides staat steeds een ander stroomkring afgebeeld, die jij mag namaken met de rechter motor en wiel van de robot en een batterij. Geef vervolgens aan welke stellingen waar zijn voor de stroomkring die jij hebt gemaakt. Tip: zet jouw robot op een verhoging, zodat de robot niet weg kan rijden.
-
-
-**Stroomkring test**
---------------------
-
-.. container:: smaller70
-
-   Houd de rode kabel van de motor tegen de pluspool van de batterij en de zwarte kabel tegen de minpool van de batterij. Welke 2 stellingen zijn waar?
-
-.. raw:: html
-
-   <!DOCTYPE html>
-    <html>
-    <head>
-    <style>
-
-    .column {
-    flex: 1;
-    padding: 10px;
-    }
-
-    .row {
-    display: flex;
-    justify-content: center;
-    }
-    </style>
-    </head>
-    <body>
-
-    <div class="row">
-    <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/stroomkring-a.png" style="width:auto; height:300px;">
-
-    </div>
-
-    <div class="column">
-    <div class="grid-container">
-      <button class="button1">A. het wiel draait rechtsom</button>
-      <button class="button2">B. het wiel draait linksom</button>
-      <button class="button1">C. de stroomkring is gesloten</button>
-      <button class="button2">D. de stroomkring is onderbroken</button>
-    </div>
-
-    </div>
-
-    </body>
- 
-
-**Stroomkring test**
---------------------
-
-.. container:: smaller70
-
-   Houd de zwarte kabel van de motor tegen de pluspool van de batterij en de rode kabel tegen de minpool van de batterij. Welke 2 stellingen zijn waar?
-
-.. raw:: html
-
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <style>
-
-    .column {
-    flex: 1;
-    padding: 10px;
-    }
-
-    .row {
-    display: flex;
-    justify-content: center;
-    }
-    </style>
-    </head>
-    <body>
-
-    <div class="row">
-    <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/stroomkring-b.png" style="width:auto; height:300px;">
-
-    </div>
-
-    <div class="column">
-    <div class="grid-container">
-      <button class="button2">A. het wiel draait rechtsom</button>
-      <button class="button1">B. het wiel draait linksom</button>
-      <button class="button1">C. de stroomkring is gesloten</button>
-      <button class="button2">D. de stroomkring is onderbroken</button>
-    </div>
-
-    </div>
-
-    </body>
-
-**Stroomkring test**
---------------------
-
-.. container:: smaller70
-
-   Houd de zwarte kabel van de motor tegen de minpool van de batterij en zorg ervoor dat de rode kabel de batterij niet aanraakt. Welke 2 stellingen zijn waar?
-
-.. raw:: html
-
-       <!DOCTYPE html>
-    <html>
-    <head>
-    <style>
-
-    .column {
-    flex: 1;
-    padding: 10px;
-    }
-
-    .row {
-    display: flex;
-    justify-content: center;
-    }
-    </style>
-    </head>
-    <body>
-
-    <div class="row">
-    <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/stroomkring-c.png" style="width:auto; height:300px;">
-
-    </div>
-
-    <div class="column">
-    <div class="grid-container">
-      <button class="button2">A. het wiel draait</button>
-      <button class="button1">B. het wiel draait niet</button>
-      <button class="button2">C. de stroomkring is gesloten</button>
-      <button class="button1">D. de stroomkring is onderbroken</button>
-    </div>
-
-    </div>
-
-    </body>
-
-
-**Elektronica aansluiten**
---------------------
-
-.. container:: smaller70
-
-   Nu gaan we de elektronica van de MIRTE robot aansluiten. Hiervoor heb je de volgende onderdelen nodig:
-
-   .. raw:: html
-
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <style>
-
-    .column {
-    flex: 1;
-    padding: 10px;
-    }
-
-    .row {
-    display: flex;
-    justify-content: center;
-    }
-    </style>
-    </head>
-    <body>
-
-    <div class="row">
-    <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/male_male.png" style="width:auto; height:200px;">
-    <div style="clear: both;"></div>
     
-    <div class="smaller40">4x kabel</div>
-
-    </div>
-
-    <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/male_female.png" style="width:auto; height:200px;">
-    <div style="clear: both;"></div>
-
-    <div class="smaller40">6x kabel</div>
-
-    </div>
-
-    <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les2/schroevendraaier.png" style="width:auto; height:200px;">
-    <div style="clear: both;"></div>
-
-    <div class="smaller40">schroevendraaier</div>
-
-    </div>
-
-    </body>
-
-
-**Motoren aansluiten**
---------------------
-
-.. container:: smaller70
-
-   Begin met het vastmaken van de kabels van de motoren aan de motor driver. Zorg ervoor dat de kabels in de goede volgorde vastgemaakt worden. Gebruik een schroevendraaier om de kabels vast te zetten in de motor driver.
-
-   .. raw:: html
-
     <!DOCTYPE html>
     <html>
     <head>
@@ -250,138 +47,143 @@ Les 4: Elektronica aansluiten
     display: flex;
     justify-content: center;
     }
+
     </style>
     </head>
     <body>
 
     <div class="row">
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/motor_driver_explanation.png" style="width:auto; height:250px;">
+    <div class="smaller50"><b>Lijst 1</b><br>1. sta op<br>2. doe een stap naar voren<br>3. doe je arm omhoog<br>4. buig je elleboog</div>
 
     </div>
 
     <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/elektronica-schema-motoren.png" style="width:auto; height:200px;">
+    <div class="smaller50"><b>Lijst 2</b><br>1. sta op<br>2. zet je rechter voet voor je linker voet<br>3. til je linker arm gestrekt op naar de zijkant<br>4.buig je linker elleboog zodat je hand naar boven wijst</div>
 
     </div>
-
     </body>
+    </html>
 
 
-**Motor driver aansluiten**
+
+**Antwoord**
 --------------------
 
 .. container:: smaller70
 
-   Verbind de motor driver met het breadboard. Gebruik hiervoor de kabels met aan beide kanten een metalen uiteinde.
-
-   .. raw:: html
-
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <style>
-
-    .column {
-    flex: 1;
-    padding: 10px;
-    }
-
-    .row {
-    display: flex;
-    justify-content: center;
-    }
-    </style>
-    </head>
-    <body>
-
-    <div class="row">
-    <div class="column">
-     <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/male_male.png" style="width:auto; height:200px;">
-    <div style="clear: both;"></div>
-    
-    <div class="smaller40">4x</div>
-
-    </div>
-
-    <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/elektronica-schema-motordriver.png" style="width:auto; height:200;">
-
-    </div>
-
-    </body>
+   Als het goed is ben je na het uitvoeren van lijst 2 in de positie geeïndigd die hieronder wordt afgebeeld, maar eindigde je na het uitvoeren van lijst 1 in een hele andere houding. Je moet dus met programmeren de taken heel specifiek uitleggen, anders kan er zo maar iets anders gebeuren. 
 
 
-**Sensoren aansluiten**
+.. image:: _static/media/mirte-lite/mirte-lite-les4/houding_persoon.png
+   :width: 250px
+
+
+**Opdracht omschrijven**
 --------------------
 
 .. container:: smaller70
 
-   Verbind de obstakel sensoren met het breadboard. Gebruik hiervoor de kabels met maar 1 metalen uiteinde. 
-
-   .. raw:: html
-
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <style>
-
-    .column {
-    flex: 1;
-    padding: 10px;
-    }
-
-    .row {
-    display: flex;
-    justify-content: center;
-    }
-    </style>
-    </head>
-    <body>
-
-    <div class="row">
-    <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/male_female.png" style="width:auto; height:200px;">
-    <div style="clear: both;"></div>
-
-    <div class="smaller40">6x</div>
-
-    </div>
-
-    <div class="column">
-    <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les4/elektronica-schema-sensoren.png" style="width:600px; height:auto;">
-
-    </div>
-
-    </body>
+   Nu mag je zelf proberen om een opdracht te schrijven, zodat deze goed uitgevoerd kan worden. Begin met een pen en een leeg vel papier op tafel. Omschrijf alle stappen die nodig zijn om te eindigen met 5 cirkels en 3 vierkanten getekend op het vel papier. Test of je stappenplan klopt door het aan iemand anders te geven die het moet uitvoeren. 
 
 
-**Krachtbron aansluiten**
---------------------
-
-.. container:: smaller70
-
-   Om het stroomschema compleet te maken, moet alleen de krachtbron nog aangesloten worden. Let op! Zorg ervoor dat de rode kabel op de plus kant van het breadboard wordt aangesloten en de zwarte kabel op de min kant. Zorg er ook voor dat de batterijhouder uitgeschakeld (OFF) is.
-
-.. image:: _static/media/mirte-lite/mirte-lite-les4/elektronica-schema-compleet.png
+.. image:: _static/media/mirte-lite/mirte-lite-les4/tekenopdract_vierkant_rond.png
    :width: 500px
 
 
-**Robot testen**
+**Opdracht korter maken**
 --------------------
 
 .. container:: smaller70
 
-   Als je alles hebt aangesloten, kun je nu de robot testen. Til de robot op en schuif het knopje op de batterijhouder van OFF naar ON om de stroomkring te sluiten. Als het goed is draaien nu beide wielen naar voren. Houd nu je hand voor de rechter obstakelsensor. Nu zou het linker wiel moeten stoppen met draaien. Houd vervolgens je hand voor de linker obstakelsensor. Nu hoort het rechter wiel te stoppen met draaien.
+   Sommigen opdrachten voor robots kunnen heel erg lang zijn. Daarom willen we de opdrachten zo kort mogelijk, maar wel duidelijk opschrijven. Gebruik het voorbeeld hieronder. Kun je met deze manier de tekenopdracht van de pagina hiervoor korter opschrijven? 
+
+
+.. image:: _static/media/mirte-lite/mirte-lite-les4/code_kort.png
+   :width: 500px
+
+
+**Opdracht voor de robot**
+--------------------
+
+.. container:: smaller70
+
+   Nu ga je een opdracht voor de robot maken. Onderzoekers van de TU Delft willen de robot verbeteren, maar hiervoor missen zij nog een paar onderdelen. Lukt het jou om de robot de goede route te laten volgen en alle onderdelen op te halen?
+
+
+**Route voor de robot**
+--------------------
+
+.. container:: smaller70
+
+   Op de volgende pagina kun je een plattegrond van de TU Delft vinden. Hieronder staan alle locaties waar de robot onderdelen moet ophalen. 
+
+
+.. container:: flex-container
+
+   .. container:: half smaller50
+    
+        **Hoe werkt het?**
+        
+        - De robot kan obstakels herkennen en daarop reageren. Ziet een robot een obstakel links, dan rijdt de robot naar rechts en andersom.
+        - Door obstakels op de plattegrond te plaatsen, kun je de robot een kant op sturen. Denk aan boeken, kartonnen dozen, etui's, etc. Wees creatief!
+        - Je mag zelf de volgorde van de route bepalen die de robot gaat rijden, zolang de robot niet van de plattegrond af gaat.
+      
+
+   .. container:: half smaller50
+
+        **Wat en waar de robot iets moet ophalen:**
+
+        - Het start- en eindpunt is bij het Science Centre (vak F7).
+        - Boutjes en moertjes bij de Bouwpub (vak F1).
+        - Extra onderdelen voor het frame bij Mechanical Engineering (vak B3).
+        - Extra kabels bij EWI (vak B5).
+        - Laptop bij de bibliotheek (vak E3).
+        - Extra sensoren bij de Dreamhall (vak D5).
+
+
+**Plattegrond**
+--------------------
+
+.. container:: flex-container
+
+   .. container:: half smaller40
+    
+      .. image:: _static/media/mirte-lite/mirte-lite-les4/plattegrond_tu_campus.jpg
+           :width: 350px
+      Illustratie door Nynke Krabbenborg
+      
+
+   .. container:: half smaller50
+
+      Klik `hier <_static/media/mirte-lite/mirte-lite-les4/plattegrond_tu_campus.jpg>`_ om de afbeelding te downloaden of te vergroten.
+
+
+      Tip: Print de plattegrond op meerdere A4'tjes en plak deze aan elkaar of tape de vakken van de plattegrond op de grond, zodat de robot daaroverheen kan rijden. 
+
+
+**Uitbreiding**
+--------------------
+
+.. container:: smaller70
+
+   Nog een keer de robot over de plattegrond laten rijden? Laat iemand anders een nieuwe route voor jou bedenken! 
+   Of daag jezelf uit en kies een paar vakken waar de robot niet overheen mag rijden. Bijvoorbeeld: alle vakken waar water te zien is, mag de robot niet overheen rijden. 
 
 .. raw:: html
 
    <div class="popup">
-   <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les1/informatie-vraagteken.png" style="width:auto; height:50px;">
-   <span class="popuptext smaller40">Draaien de wielen naar achter? Draai dan de rode en zwarte kabel van de motor bij de motordriver om. <br>Draaien de wielen helemaal niet? Controleer of alle kabels goed aangesloten zijn en of de batterijen vol zijn.</span>
+   <img loading="lazy" src="_static/media/mirte-lite/mirte-lite-les1/informatie-i.png" style="width:auto; height:50px;">
+   <span class="popuptext smaller40">Tip voor in de klas: Laat (groepjes) leerlingen routes voor elkaar bedenken en deze uitvoeren. Zo rijdt iedereen een andere route over de plattegrond. </span>
    </div>
 
-**Volgende stap**
+.. container:: smaller40
+   
+   p.s. Heb je de kikker al gevonden? 
+
+
+
+**Einde lespakket MIRTE lite**
 --------------------
 
 .. revealjs-section::
@@ -389,9 +191,8 @@ Les 4: Elektronica aansluiten
 
 .. container:: smaller70
   
-   Uitstekend! Je hebt de vierde les afgerond. Nu kun je door naar les 5.
+   Fantastisch! Je hebt de laatste les afgerond. Veel plezier en succes met jouw eigen MIRTE lite robot. 
 
 .. raw:: html
 
     <button class="buttonback" onclick="Reveal.slide(4,0)">Terug naar het begin</button>
-    <button class="buttonback" onclick="Reveal.slide(5,0)">Door naar les 5</button>
